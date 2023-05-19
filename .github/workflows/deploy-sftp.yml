@@ -16,24 +16,6 @@ jobs:
           submodules: true
           fetch-depth: 1
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'yarn'
-
-      - name: Install JS dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build
-        run: hugo -e production --minify
-
       - name: Sync files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
