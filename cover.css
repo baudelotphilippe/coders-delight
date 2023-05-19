@@ -1,0 +1,32 @@
+body{
+  background-color: #673B90;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+main{
+  margin-top: 160px !important;
+}
+
+.nav-link {
+  color: #FFF;
+}
+
+.nav-link:hover{
+  color: #CCC;
+
+}
+
+.intro{
+  font-size: 24px;
+}
+
+.card{
+  background-color: #F5A01F;
+}
+
+.card button{
+  background-color: #20ACC9 !important;
+}
