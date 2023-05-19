@@ -30,3 +30,15 @@ main{
 .card button{
   background-color: #20ACC9 !important;
 }
+
+p {
+  text-align: left;
+}
+
+a {
+  color: white;
+}
+
+a.active {
+  text-decoration: underline;
+}
