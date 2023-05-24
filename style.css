@@ -43,9 +43,6 @@ a.active {
   text-decoration: underline;
 }
 
-a {
-  text-decoration: none;
-}
 .sponsors p {
   font-size: 2rem;
   text-align: center;
@@ -57,13 +54,12 @@ a {
   height: 100px;
   margin : 0 auto 20px auto;
 }
-
-footer ul {
+.menu-bas-de-page {
   display:flex;
   justify-content: center;
+  list-style-type: none;
   gap: 20px;
 }
-
-footer li {
-  list-style-type: none;
+.menu-bas-de-page li {
+text-decoration: none;
 }
