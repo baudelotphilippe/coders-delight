@@ -60,6 +60,6 @@ a.active {
   list-style-type: none;
   gap: 20px;
 }
-.menu-bas-de-page li {
+.menu-bas-de-page a {
 text-decoration: none;
 }
